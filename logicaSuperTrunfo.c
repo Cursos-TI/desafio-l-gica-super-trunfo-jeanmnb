@@ -70,7 +70,7 @@ int main() {
     densidade2 = populacao1 / area1;
     pibPerCapita2 = pib2 / populacao2;
 
-    char atributo[50]= populacao;
+    char atributo[50]= "populacao";
 
     if(populacao1 > populacao2){
         printf("carta1 venceu");
