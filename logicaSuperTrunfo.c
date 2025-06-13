@@ -81,6 +81,7 @@ int main() {
     else{
         printf("jogo empatado");
     }
+    return 0;
     }
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
@@ -115,5 +116,5 @@ int main() {
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
-    return 0;
-}
+    
+
