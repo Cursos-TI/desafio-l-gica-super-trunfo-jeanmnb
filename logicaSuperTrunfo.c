@@ -70,25 +70,18 @@ int main() {
     densidade2 = populacao1 / area1;
     pibPerCapita2 = pib2 / populacao2;
 
-    // Exibição dos dados da primeira carta
-    printf("\nCarta 1:\n");
-    printf("Estado: %c\n", estado1);
-    printf("Código: %s\n", codigo1);
-    printf("Nome da Cidade: %s\n", nome_estado1);
-    printf("População: %d\n", populacao1);
-    printf("Área: %.2f km²\n", area1);
-    printf("PIB: %.2f bilhões de reais\n", pib1);
-    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
+    char atributo[50]= populacao;
 
-    // Exibição dos dados da segunda carta
-    printf("\nCarta 2:\n");
-    printf("Estado: %c\n", estado2);
-    printf("Código: %s\n", codigo2);
-    printf("Nome da Cidade: %s\n", nome_estado2);
-    printf("População: %d\n", populacao2);
-    printf("Área: %.2f km²\n", area2);
-    printf("PIB: %.2f bilhões de reais\n", pib2);
-    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
+    if(populacao1 > populacao2){
+        printf("carta1 venceu");
+    }
+    else if(populacao2 > populacao1){
+        printf("carta2 venceu");
+    }
+    else{
+        printf("jogo empatado");
+    }
+    }
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
